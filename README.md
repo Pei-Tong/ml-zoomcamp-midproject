@@ -68,8 +68,9 @@ The project includes the following files:
 ```bash
 git clone https://github.com/your-repository-url/customer-purchase-prediction.git
 cd customer-purchase-prediction
+```
 
-Step 2: Install Dependencies
+#### Step 2: Install Dependencies
 Create a virtual environment and install dependencies:
 
 ```bash
@@ -77,10 +78,12 @@ python -m venv venv
 source venv/bin/activate # For Linux/Mac
 venv\Scripts\activate    # For Windows
 pip install -r requirements.txt
+```
 
 Run the App Locally
 ```bash
 streamlit run app.py
+```
 
 ## Using Docker
 Step 1: Build the Docker Image
@@ -89,6 +92,7 @@ docker build -t customer-purchase-prediction .
 Step 2: Run the Docker Container
 ```bash
 docker run -p 8501:8501 customer-purchase-prediction
+```
 
 ## Project Deliverables
 - A Streamlit application for customer purchase prediction.
