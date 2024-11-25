@@ -101,7 +101,7 @@ docker run -p 8501:8501 customer-purchase-prediction
 - Trained model and prediction scripts.
 
 ## Web Interface
-![App Screenshot](web_interface.png)
+<img src="web_interface.png" alt="App Screenshot" title="Customer Purchase Prediction App" width="500">
 
 ## Acknowledgements
 - Dataset: Kaggle: Predict Customer Purchase Behavior Dataset​.
